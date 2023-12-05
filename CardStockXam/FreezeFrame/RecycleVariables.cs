@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FreezeFrame
 {
-    class RecycleVariables
+    public class RecycleVariables
     {
         private Dictionary<String, object> vars; 
 

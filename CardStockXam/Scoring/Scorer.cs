@@ -37,7 +37,7 @@ namespace CardStockXam
             //gameFiles.Add("games/Pairs3.gdl");
             //gameFiles.Add("games/Pairs4.gdl");
             //gameFiles.Add("games/Pairs5.gdl");
-            gameFiles.Add("games/testing/Test-Intersect.gdl");
+            gameFiles.Add("games/Enchere3.gdl");
 
             foreach (string name in gameFiles.GetRange(0, gameFiles.Count))
             {
@@ -84,6 +84,7 @@ namespace CardStockXam
           
             text = "Scoring " + fileName + ":\n";
             
+
             exps.Add(new Experiment()
             {
                 fileName = fileName,
@@ -105,7 +106,6 @@ namespace CardStockXam
                 type = GameType.RndandAI
                     
             });
-            
             
             exps.Add(new Experiment()
             {

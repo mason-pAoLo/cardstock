@@ -11,17 +11,18 @@ namespace CardGames
     {
         public static void Main(string[] args)
         {
-            CardStockXam.Scorer.Main(args);
-            //var p = new Program();
-            //p.SingleGame("games/ContinuousPairs.gdl");
-            //p.AllGames();
+            CardStockXam.games.testing.Enchere.Main();
+            // CardStockXam.Scorer.Main(args);
+            // var p = new Program();
+            // p.SingleGame("games/Enchere3.gdl");
+            // p.AllGames();
         }
 
         void SingleGame(string game) {
 			var exp = new Experiment();
 			exp.fileName = game;
             // System.Console.WriteLine(g.Substring(6, g.Length - 4));
-            exp.numGames = 100;
+            exp.numGames = 1;
             exp.numEpochs = 10;
 
             exp.logging = false;

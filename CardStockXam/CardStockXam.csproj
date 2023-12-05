@@ -240,11 +240,20 @@
     <Compile Include="Antlr4\Runtime\UnbufferedCharStream.cs" />
     <Compile Include="Antlr4\Runtime\UnbufferedTokenStream.cs" />
     <Compile Include="Antlr4\Runtime\Vocabulary.cs" />
+    <Compile Include="FreezeFrame\BoolObject.cs" />
+    <Compile Include="FreezeFrame\CardStorageObject.cs" />
+    <Compile Include="FreezeFrame\GameActionCreator.cs" />
+    <Compile Include="FreezeFrame\IntObject.cs" />
+    <Compile Include="FreezeFrame\RawStorageObject.cs" />
+    <Compile Include="FreezeFrame\Stage.cs" />
     <Compile Include="FreezeFrame\IterItem.cs" />
     <Compile Include="FreezeFrame\IteratingTree.cs" />
     <Compile Include="FreezeFrame\PointStorageReference.cs" />
     <Compile Include="FreezeFrame\RecycleVariables.cs" />
     <Compile Include="FreezeFrame\StrStorageReference.cs" />
+    <Compile Include="games\testing\Enchere.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Players\ISMCTSPlayer.cs" />
     <Compile Include="Players\MCTSLitePlayer.cs" />
     <Compile Include="Players\MCTSPLayer.cs" />

@@ -31,7 +31,9 @@ namespace Players
         }
 
         public int NumberOfPlayers()
-        { return actualgameiterator.game.players.Length; }
+        { //return actualgameiterator.game.players.Length;
+            return 3;
+         }
 
         public void AddLeadsList(Tuple<int, double[]> leads) {
             actualgameiterator.AddLeadsList(leads);
